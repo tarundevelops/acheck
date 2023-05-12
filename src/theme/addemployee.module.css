@@ -1,0 +1,11 @@
+.emfo::-webkit-scrollbar{
+    display: none;
+
+}
+
+.emfo{
+
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    
+}

@@ -1,0 +1,19 @@
+.css-178jblq-MuiPaper-root-MuiDrawer-paper{
+border-right: 0 !important;
+}
+
+.editDiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.editDiv div{
+    width: 10rem;
+  
+}
+
+body{
+    padding-right: 0 !important;
+}
