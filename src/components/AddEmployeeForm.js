@@ -1,6 +1,6 @@
 import { Button, TextField } from "@mui/material"
 import { EmployeePermission } from "./EmployeePermission"
-import Emstyle from "../theme/addEmployee.module.css"
+
 
 
 export default function AddEmployeeForm({employeeDetails,setEmployeeDetails}){
@@ -9,7 +9,7 @@ console.log(employeeDetails)
         
     }
     return(
-        <div className={Emstyle.emfo} style={{borderRadius:"2rem"}}>
+        <div  style={{borderRadius:"2rem"}}>
             <h2 >Employee Details</h2>
         <form>
             <div style={{display:"flex",justifyContent:"space-around",margin:"1rem"}}>
